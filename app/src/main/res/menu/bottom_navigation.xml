@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_icons_home"
+        android:title="@string/home" />
 
+    <item
+        android:id="@+id/promo"
+        android:enabled="true"
+        android:icon="@drawable/ic_promo"
+        android:title="@string/promo"/>
+
+    <item
+        android:id="@+id/orders"
+        android:enabled="true"
+        android:icon="@drawable/ic_icons_purchase_order"
+        android:title="@string/purchase_order"/>
+
+    <item
+        android:id="@+id/ordersHistory"
+        android:enabled="true"
+        android:icon="@drawable/ic_icons_order_history"
+        android:title="@string/order_history"/>
 </menu>

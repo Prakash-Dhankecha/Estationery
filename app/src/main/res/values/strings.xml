@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Estationery</string>
+    <string name="home">Home</string>
+    <string name="promo">Promo</string>
+    <string name="purchase_order">purchase order</string>
+    <string name="order_history">order history</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="order_history_fragment">order history_ ragment</string>
+    <string name="order_fragment">order fragment</string>
+    <string name="promo_fragment">promo fragment</string>
+    <string name="profile_fragment">profile fragment</string>
+    <string name="delivery_to">Delivery to</string>
+    <string name="darshan_tramba">Darshan, Tramba</string>
+    <string name="account_detail_home">Account</string>
+    <string name="price">₹ 150 for all set</string>
+    <string name="rate">4.5</string>
+    <string name="st_address">Mahuva, India</string>
+    <string name="st_name">Ashopalav Stationery</string>
+    <string name="st_around">All Stationery around you</string>
 </resources>
