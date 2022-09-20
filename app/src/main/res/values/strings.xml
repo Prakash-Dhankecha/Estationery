@@ -18,4 +18,6 @@
     <string name="st_address">Mahuva, India</string>
     <string name="st_name">Ashopalav Stationery</string>
     <string name="st_around">All Stationery around you</string>
+    <string name="get_started">The Right Address For Shopping Anyday</string>
+    <string name="btn_get_start">Get Start</string>
 </resources>
