@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".LoginScreen">
+
+    <ImageView
+        android:id="@+id/group_26"
+        android:layout_width="match_parent"
+        android:layout_height="471dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="-107dp"
+        android:layout_marginBottom="367dp"
+        android:src="@drawable/login_img" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="372dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/antic_didone"
+        android:gravity="center"
+        android:text="India’s #1 E-Stationery Delivery App"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+
+            android:layout_width="150dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="310dp"
+            android:background="#E91E63" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Log in or Sign in "
+        android:gravity="center"
+        android:layout_marginTop="300dp"
+        android:textColor="#8F000000"
+        android:textSize="14dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+
+            android:layout_width="150dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="310dp"
+            android:background="#E91E63" />
+    </LinearLayout>
+
+
+</RelativeLayout>
