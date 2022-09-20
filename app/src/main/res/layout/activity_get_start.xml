@@ -7,35 +7,45 @@
     android:background="@color/white"
     tools:context=".getStart">
 
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="243dp"
         android:layout_height="379dp"
-        android:layout_marginLeft="55dp"
-        android:layout_marginTop="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="86dp"
         android:layout_marginBottom="60dp"
         app:srcCompat="@drawable/logo" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_marginTop="240dp"
-        android:fontFamily="@font/m_plus_1p"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="503dp"
         android:gravity="center"
         android:text="The Right Address For Shopping Anyday"
         android:textColor="#000000"
-        android:textSize="20dp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="17dp"
         android:layout_marginLeft="34dp"
+        android:layout_marginTop="584dp"
+        android:layout_marginEnd="17dp"
         android:layout_marginRight="34dp"
-        android:layout_marginTop="580dp"
         android:background="@drawable/btn"
         android:text="Get Start" />
 
