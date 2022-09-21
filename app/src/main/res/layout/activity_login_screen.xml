@@ -188,19 +188,62 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/google"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="560dp"
+            android:layout_marginRight="150dp"
+            android:backgroundTint="#FFFFFF"
+            app:srcCompat="@drawable/google" />
+
+        <ImageButton
+            android:id="@+id/otherlogin"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="-140dp"
+            android:layout_marginTop="540dp"
+            android:layout_marginRight="110dp"
+            android:layout_weight="1"
+            android:src="@drawable/other"
+                android:backgroundTint="#36FFFFFF"
+            app:srcCompat="@drawable/otherbg" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <Button
-            android:id = "@+id/text"
-            android:textSize = "18sp"
-            android:textAlignment = "center"
-            android:background = "@drawable/google"
-            android:layout_marginTop="560dp"
-            android:layout_marginLeft="130dp"
-            android:layout_width = "50dp"
-            android:textColor = "#000"
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By continiuing, you agree to our"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="640dp"
+            android:textSize="13dp"/>
+    </LinearLayout>
 
-            android:layout_height = "50dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Terms of Service Privacy Policy Content policy"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_marginTop="660dp"/>
     </LinearLayout>
 
 
