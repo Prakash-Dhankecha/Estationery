@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "10812706579",
+    "project_id": "estationery-e6b44",
+    "storage_bucket": "estationery-e6b44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10812706579:android:60d1a2f1d3d5ed2bb694e6",
+        "android_client_info": {
+          "package_name": "com.example.estationery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10812706579-1glqooo5ub1km41f77q0f7cdl1hd4unm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUTQ5zIgO-P7f3hRwt9B19W_d-fi5MwMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10812706579-1glqooo5ub1km41f77q0f7cdl1hd4unm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
