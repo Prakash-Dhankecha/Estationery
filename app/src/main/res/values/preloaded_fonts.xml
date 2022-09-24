@@ -10,5 +10,7 @@
         <item>@font/life_savers</item>
         <item>@font/m_plus_1p</item>
         <item>@font/oleo_script_swash_caps</item>
+        <item>@font/OpenSansBold</item>
+        <item>@font/OpenSansItalic</item>
     </array>
 </resources>
