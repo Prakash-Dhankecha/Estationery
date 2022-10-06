@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "10812706579",
+    "firebase_url": "https://estationery-e6b44-default-rtdb.firebaseio.com",
     "project_id": "estationery-e6b44",
     "storage_bucket": "estationery-e6b44.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "10812706579-6aqcvbcpnfaltcf4s1hi4333v3cle4ec.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.estationery",
+            "certificate_hash": "ffbb6c0eb1ce98c33eb14772d50d8466a50832a6"
+          }
+        },
         {
           "client_id": "10812706579-1glqooo5ub1km41f77q0f7cdl1hd4unm.apps.googleusercontent.com",
           "client_type": 3
