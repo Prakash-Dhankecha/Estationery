@@ -40,4 +40,12 @@
     <string name="softek_blue_pen">Softek blue pen</string>
     <string name="softek_pen">Softek Pen</string>
     <string name="softek_pen_price">$30 for box</string>
+    <string name="favorite_order">Favorite order</string>
+    <string name="view_activity">View activity</string>
+    <string name="darshan">Darshan</string>
+    <string name="stationery_order">Stationery order</string>
+    <string name="your_order">Your Order</string>
+    <string name="payments">Payments</string>
+    <string name="choose_language">Choose language</string>
+    <string name="logout">Logout</string>
 </resources>

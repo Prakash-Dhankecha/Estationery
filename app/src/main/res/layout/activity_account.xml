@@ -23,7 +23,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Darshan"
+        android:text="@string/darshan"
         android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -32,7 +32,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="View activity"
+        android:text="@string/view_activity"
         android:textColor="@color/red"
         android:textSize="15sp"
         android:textStyle="normal"
@@ -81,6 +81,172 @@
             android:background="@drawable/accountbg"
             android:src="@drawable/wallet" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="40dp"
+            android:text="@string/choose_language"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:background="@drawable/accountlang"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="300dp">
+
+        </TextView>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-70dp"
+            android:layout_marginTop="295dp"
+            android:backgroundTint="#00FFFFFF"
+            android:src="@drawable/rightarrow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="200dp"
+            android:background="@drawable/accountlang"
+            android:layout_marginTop="355dp"
+            android:layout_marginStart="20dp"
+            tools:ignore="Suspicious0dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/stationery_order"
+            android:layout_marginStart="-340dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="360dp"
+            android:textStyle="normal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/your_order"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="400dp"
+            android:layout_marginStart="60dp"/>
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/yourorder"
+            android:layout_marginTop="400dp"
+            android:layout_marginStart="-94dp"
+            android:background="@drawable/yourordershape"/>
+        <View
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="425dp"
+            android:background="@color/black" />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-70dp"
+            android:layout_marginTop="380dp"
+            android:backgroundTint="@color/lightblack"
+            android:src="@drawable/rightarrow" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/favorite_order"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="450dp"
+            android:layout_marginStart="-355dp"/>
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/like"
+            android:layout_marginTop="450dp"
+            android:layout_marginStart="-120dp"
+            android:background="@drawable/yourordershape"/>
+        <View
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="472dp"
+            android:background="@color/black" />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-70dp"
+            android:layout_marginTop="430dp"
+            android:backgroundTint="@color/lightblack"
+            android:src="@drawable/rightarrow" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/payments"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="490dp"
+            android:layout_marginStart="-355dp"/>
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/payments"
+            android:layout_marginTop="490dp"
+            android:layout_marginStart="-120dp"
+            android:background="@drawable/yourordershape"/>
+        <View
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="515dp"
+            android:background="@color/black" />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-70dp"
+            android:layout_marginTop="470dp"
+            android:backgroundTint="@color/lightblack"
+            android:src="@drawable/rightarrow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="40dp"
+            android:text="@string/logout"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:background="@drawable/accountlang"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="600dp"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-70dp"
+            android:layout_marginTop="595dp"
+            android:backgroundTint="@color/lightblack"
+            android:src="@drawable/rightarrow" />
+    </LinearLayout>
+
+
 
 
 </RelativeLayout>
