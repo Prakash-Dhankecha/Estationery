@@ -187,65 +187,55 @@
             android:orientation="horizontal"
             android:layout_marginTop="320dp">
 
-            <Button
-                android:id="@+id/allmenu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#FFFEFE"
-                android:text="All Menu"
-                android:textColor="#F06292"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/chipGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-            <Button
-                android:id="@+id/pens"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Pens"
-                android:backgroundTint="#FFFEFE"
-                android:textColor="#C41D1D1D"
-                android:textSize="20sp"
-                android:textStyle="normal" />
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_1"
+                    style="@style/ShapeAppearanceOverlay.Material3.Chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="All Menu" />
 
-            <Button
-                android:id="@+id/toys"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Toys"
-                android:backgroundTint="#FFFEFE"
-                android:textColor="#C41D1D1D"
-                android:textSize="20sp"
-                android:textStyle="normal" />
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_2"
+                    style="@style/ShapeAppearanceOverlay.Material3.Chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pens" />
 
-            <Button
-                android:id="@+id/eraser"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Eraser/Shapner"
-                android:backgroundTint="#FFFEFE"
-                android:textColor="#C41D1D1D"
-                android:textSize="20sp"
-                android:textStyle="normal" />
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_3"
+                    style="@style/ShapeAppearanceOverlay.Material3.Chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Toys" />
 
-            <Button
-                android:id="@+id/books"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Books"
-                android:backgroundTint="#FFFEFE"
-                android:textColor="#C41D1D1D"
-                android:textSize="20sp"
-                android:textStyle="normal" />
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_4"
+                    style="@style/ShapeAppearanceOverlay.Material3.Chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Eraser/Shapner" />
 
-            <Button
-                android:id="@+id/more"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="More"
-                android:backgroundTint="#FFFEFE"
-                android:textColor="#C41D1D1D"
-                android:textSize="20sp"
-                android:textStyle="normal" />
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_5"
+                    style="@style/ShapeAppearanceOverlay.Material3.Chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Books" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_6"
+                    style="@style/ShapeAppearanceOverlay.Material3.Chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More" />
+            </com.google.android.material.chip.ChipGroup>
+
+
         </LinearLayout>
 
     </HorizontalScrollView>
