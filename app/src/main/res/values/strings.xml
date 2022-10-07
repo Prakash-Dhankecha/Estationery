@@ -39,4 +39,5 @@
     <string name="pen_price">$3, per pen</string>
     <string name="softek_blue_pen">Softek blue pen</string>
     <string name="softek_pen">Softek Pen</string>
+    <string name="softek_pen_price">$30 for box</string>
 </resources>
