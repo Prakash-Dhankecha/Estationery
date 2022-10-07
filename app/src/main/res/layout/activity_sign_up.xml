@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
       android:gravity="center"
         android:layout_marginTop="197dp"
-        android:text=" Sign in "
+        android:text="@string/sign_in"
         android:textColor="#8F000000"
         android:textSize="14sp" />
 
@@ -68,7 +68,7 @@
             android:background="@drawable/bg"
             android:backgroundTint="@color/ebg"
             android:ems="10"
-            android:hint="  First Name"
+            android:hint="@string/hint_first_name"
             android:inputType="textPersonName"
             android:textColorHint="#A7A4A4"
             android:autofillHints="" />
@@ -83,7 +83,7 @@
             android:background="@drawable/bg"
             android:backgroundTint="@color/ebg"
             android:ems="10"
-            android:hint="  Last Name"
+            android:hint="@string/last_name"
             android:inputType="textPersonName"
             android:textColorHint="#A7A4A4"
             android:importantForAutofill="no" />
@@ -98,8 +98,8 @@
             android:background="@drawable/bg"
             android:backgroundTint="@color/ebg"
             android:ems="10"
-            android:fontFamily="@font/averia_sans_libre"
-            android:hint="  Email"
+
+            android:hint="@string/email"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
             android:textColorHint="#A7A4A4" />
@@ -114,7 +114,7 @@
             android:background="@drawable/bg"
             android:backgroundTint="@color/ebg"
             android:ems="10"
-            android:hint="  Mobile No"
+            android:hint="@string/mobile_no"
             android:inputType="textPersonName"
             android:textColorHint="#A7A4A4"
             android:autofillHints="" />
@@ -130,7 +130,7 @@
             android:background="@drawable/bg"
             android:backgroundTint="@color/ebg"
             android:ems="10"
-            android:hint="  Address"
+            android:hint="@string/address"
             android:inputType="textPersonName"
             android:textColorHint="#A7A4A4"
             tools:ignore="TextContrastCheck" />
