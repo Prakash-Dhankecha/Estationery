@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Account">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/accountprofilebg"
+        android:layout_marginStart="5dp"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/account"
+        android:layout_marginTop="45dp"
+        android:layout_marginStart="300dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Darshan"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View activity"
+        android:textColor="@color/red"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="30dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="103dp"
+            android:src="@drawable/like"
+            android:layout_marginTop="170dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/accountbg"/>
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="103dp"
+            android:src="@drawable/notifications"
+            android:layout_marginTop="170dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/accountbg"/>
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="103dp"
+            android:src="@drawable/setting"
+            android:layout_marginTop="170dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/accountbg"/>
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="103dp"
+            android:src="@drawable/wallet"
+            android:layout_marginTop="170dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/accountbg"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
