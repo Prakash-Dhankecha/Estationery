@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         getSupportActionBar().hide();
 
-        bottom_navigation = (BottomNavigationView) findViewById(R.id.bottom_navigation);
+        /*bottom_navigation = (BottomNavigationView) findViewById(R.id.bottom_navigation);
 
         bottom_navigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -43,10 +43,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        bottom_navigation.setSelectedItemId(R.id.home);
+        bottom_navigation.setSelectedItemId(R.id.home);*/
     }
 
-    public void loadFrag(Fragment fragment, boolean flag){
+   /* public void loadFrag(Fragment fragment, boolean flag){
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
         if (flag)
@@ -55,6 +55,6 @@ public class MainActivity extends AppCompatActivity {
             ft.replace(R.id.container, fragment);
         }
         ft.commit();
-    }
+    }*/
 
 }

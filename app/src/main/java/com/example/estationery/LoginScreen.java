@@ -70,7 +70,7 @@ public class LoginScreen extends AppCompatActivity {
 
     private void navigateUpToSecondActivity() {
         finish();
-        Intent intent = new Intent(LoginScreen.this,second_activity.class);
+        Intent intent = new Intent(LoginScreen.this,HomeActivity.class);
         startActivity(intent);
     }
 }

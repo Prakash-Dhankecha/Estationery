@@ -30,4 +30,13 @@
     <string name="login_txt5">Terms of Service, Privacy Policy, Content policy</string>
     <string name="login_txt2">Log in or Sign in</string>
     <string name="email_login">Email</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_editTxt">Email</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="already_have_an_account_login">Already Have an account ? Login</string>
+    <string name="register_now">Register Now</string>
+    <string name="pen_price">$3, per pen</string>
+    <string name="softek_blue_pen">Softek blue pen</string>
+    <string name="softek_pen">Softek Pen</string>
 </resources>
