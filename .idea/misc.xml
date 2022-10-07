@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Study/Android/Estationery/app/src/main/res/drawable/gradient.xml" value="0.236" />
+        <entry key="..\:/Study/Android/Estationery/app/src/main/res/layout/activity_account.xml" value="0.2" />
         <entry key="..\:/Study/Android/Estationery/app/src/main/res/layout/activity_account_screen.xml" value="0.3827751196172249" />
         <entry key="..\:/Study/Android/Estationery/app/src/main/res/layout/activity_forgot_password_s1.xml" value="0.20521590423257802" />
         <entry key="..\:/Study/Android/Estationery/app/src/main/res/layout/activity_forgot_password_s2.xml" value="0.20521590423257802" />
@@ -11,7 +13,8 @@
         <entry key="..\:/Study/Android/Estationery/app/src/main/res/layout/activity_home_screen.xml" value="0.20471014492753623" />
         <entry key="..\:/Study/Android/Estationery/app/src/main/res/layout/activity_login_screen.xml" value="0.176" />
         <entry key="..\:/Study/Android/Estationery/app/src/main/res/layout/activity_main.xml" value="0.20471014492753623" />
-        <entry key="..\:/Study/Android/Estationery/app/src/main/res/layout/activity_pen_screen.xml" value="0.176" />
+        <entry key="..\:/Study/Android/Estationery/app/src/main/res/layout/activity_order_history.xml" value="0.2" />
+        <entry key="..\:/Study/Android/Estationery/app/src/main/res/layout/activity_pen_screen.xml" value="0.2" />
         <entry key="..\:/Study/Android/Estationery/app/src/main/res/layout/activity_second.xml" value="0.20521590423257802" />
         <entry key="..\:/Study/Android/Estationery/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
         <entry key="..\:/Study/Android/Estationery/app/src/main/res/layout/activity_splash_screen.xml" value="0.20521590423257802" />

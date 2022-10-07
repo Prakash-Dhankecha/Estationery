@@ -38,40 +38,49 @@
         android:textStyle="normal"
         android:layout_marginTop="110dp"
         android:layout_marginStart="30dp"/>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
-        <ImageButton
-            android:layout_width="90dp"
-            android:layout_height="103dp"
-            android:src="@drawable/like"
-            android:layout_marginTop="170dp"
-            android:layout_marginStart="10dp"
-            android:background="@drawable/accountbg"/>
-        <ImageButton
-            android:layout_width="90dp"
-            android:layout_height="103dp"
-            android:src="@drawable/notifications"
-            android:layout_marginTop="170dp"
-            android:layout_marginStart="10dp"
-            android:background="@drawable/accountbg"/>
-        <ImageButton
-            android:layout_width="90dp"
-            android:layout_height="103dp"
-            android:src="@drawable/setting"
-            android:layout_marginTop="170dp"
-            android:layout_marginStart="10dp"
-            android:background="@drawable/accountbg"/>
-        <ImageButton
-            android:layout_width="90dp"
-            android:layout_height="103dp"
-            android:src="@drawable/wallet"
-            android:layout_marginTop="170dp"
-            android:layout_marginStart="10dp"
-            android:background="@drawable/accountbg"/>
-    </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="88dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="170dp"
+            android:padding="15dp"
+            android:background="@drawable/accountbg"
+            android:src="@drawable/like" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="88dp"
+            android:padding="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/accountbg"
+            android:src="@drawable/notifications" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="86dp"
+            android:padding="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/accountbg"
+            android:src="@drawable/setting" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="88dp"
+            android:padding="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/accountbg"
+            android:src="@drawable/wallet" />
+    </LinearLayout>
 
 
 </RelativeLayout>
