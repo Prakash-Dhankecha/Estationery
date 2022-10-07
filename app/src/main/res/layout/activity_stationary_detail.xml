@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Account">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/rating" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asoplave stationary"
+        android:textColor="@color/black"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:layout_marginTop="45dp"
+        android:layout_marginStart="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pen,notebooks,toy"
+        android:textSize="18sp"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mahuva Locality,Mahuva"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="118" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-1km"
+        android:textSize="19sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="245dp"
+        android:layout_marginTop="118"/>
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:src="@drawable/td"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="190dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="103dp"
+            android:background="@null"
+            android:src="@drawable/disc1"
+            android:layout_marginStart="22dp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="103dp"
+            android:background="@null"
+            android:src="@drawable/disc2" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="103dp"
+            android:background="@null"
+            android:src="@drawable/disc2" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="355dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/pinkrect" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOUR PREVIOUS ORDER"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="285dp"
+        android:layout_marginStart="40dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/chess" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 x Chess Board"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="340dp"
+        android:layout_marginStart="140dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="$125"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="460dp"
+        android:layout_marginStart="50dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ ADD"
+        android:backgroundTint="#7E7E7E"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="270dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recommended"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="530dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="580dp"
+        android:text="In Sub-book"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Std 1"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="620dp"/>
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="635dp"
+        android:src="@drawable/fivestar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$180"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="710dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All book will come in set"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="735dp"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="780dp"
+        android:background="@null"
+        android:src="@drawable/like" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="597dp"
+        android:background="@drawable/bookk" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/bookkk" />
+
+
+
+</RelativeLayout>
