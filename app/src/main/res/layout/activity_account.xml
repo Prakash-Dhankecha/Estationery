@@ -80,6 +80,8 @@
             android:layout_marginTop="170dp"
             android:background="@drawable/accountbg"
             android:src="@drawable/wallet" />
+
+
     </LinearLayout>
 
     <LinearLayout
