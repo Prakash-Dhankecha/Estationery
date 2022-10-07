@@ -89,7 +89,8 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
         <ImageView
             android:layout_width="35dp"
@@ -158,74 +159,44 @@
             android:background="#C4C4C4" />
 
     </LinearLayout>
-   <HorizontalScrollView
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:fillViewport="true">
-       <LinearLayout
-           android:layout_width="match_parent"
-           android:layout_height="match_parent"
-           android:orientation="horizontal"
-           android:layout_marginTop="320dp"
-           >
-           <Button
-               android:id="@+id/allmenu"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="All Menu"
-               android:backgroundTint="#FFFEFE"
-               android:textColor="#D89B9B"
-               android:textSize="20dp"
-               android:textStyle="bold"/>
-           <Button
-               android:id="@+id/pens"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Pens"
-               android:backgroundTint="#FFFEFE"
-               android:textColor="#C41D1D1D"
-               android:textSize="20dp"
-               android:textStyle="normal"/>
-           <Button
-               android:id="@+id/toys"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Toys"
-               android:backgroundTint="#FFFEFE"
-               android:textColor="#C41D1D1D"
-               android:textSize="20dp"
-               android:textStyle="normal"/>
-           <Button
-               android:id="@+id/eraser"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Eraser/Shapner"
-               android:backgroundTint="#FFFEFE"
-               android:textColor="#C41D1D1D"
-               android:textSize="20dp"
-               android:textStyle="normal"/>
-           <Button
-               android:id="@+id/books"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Books"
-               android:backgroundTint="#FFFEFE"
-               android:textColor="#C41D1D1D"
-               android:textSize="20dp"
-               android:textStyle="normal"/>
-           <Button
-               android:id="@+id/more"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="More"
-               android:backgroundTint="#FFFEFE"
-               android:textColor="#C41D1D1D"
-               android:textSize="20dp"
-               android:textStyle="normal"/>
-       </LinearLayout>
 
-   </HorizontalScrollView>
-
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="150dp">
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button One" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Two" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Three" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Four" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Five" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Six" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Seven" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Eight" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Nine" />
+        </LinearLayout>
+    </HorizontalScrollView>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -243,27 +214,73 @@
                 android:textSize="20dp"
                 android:textColor="@color/black"/>
     <ImageView
-                 android:layout_width="150dp"
-                 android:layout_height="150dp"
+                 android:layout_width="110dp"
+                 android:layout_height="110dp"
                  android:src="@drawable/pen"
                  android:layout_marginTop="40dp"
                  android:layout_marginLeft="10dp"
                  android:background="@drawable/shapebg"/>
             <Button
-                android:layout_width="60dp"
+                android:layout_width="80dp"
                 android:layout_height="40dp"
-                android:layout_marginLeft="30dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="-12dp"
-                android:textSize="15dp"
+                android:textSize="11dp"
                 android:text="+ ADD"/>
 
 
         </LinearLayout>
 
+
     </ScrollView>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Softek Pen"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="@color/black">
 
 
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Softek blue pen"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:layout_marginTop="472dp"
+            android:layout_marginLeft="-232dp"
+            android:textColor="@color/black">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="₹3, per pen"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:layout_marginTop="493dp"
+            android:layout_marginLeft="-232dp"
+            android:textColor="#B87272">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="₹30 for box"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:layout_marginTop="512dp"
+            android:layout_marginLeft="-232dp"
+            android:textColor="#B87272">
+        </TextView>
+    </LinearLayout>
 
 
 </RelativeLayout>
