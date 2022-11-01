@@ -9,12 +9,13 @@
     android:background="#FFFFFF"
     tools:context=".LoginScreen">
 
-   <ImageView
-       android:layout_width="match_parent"
-       android:scaleType="centerCrop"
-       android:layout_height="wrap_content"
-       android:src="@drawable/login_img"
-       android:layout_marginTop="-110dp"/>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="wrap_content"
+            android:src="@drawable/login_img"
+            android:layout_marginTop="-110dp"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -53,28 +54,29 @@
             android:layout_marginEnd="200dp"
             android:background="#E91E63" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
         <EditText
-            android:id="@id/Login"
+            android:id="@+id/fname"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="240dp"
             android:layout_marginRight="50dp"
+            android:autofillHints=""
             android:background="@drawable/bg"
             android:backgroundTint="@color/ebg"
             android:ems="10"
             android:hint="@string/hint_first_name"
             android:inputType="textPersonName"
-            android:textColorHint="#A7A4A4"
-            android:autofillHints="" />
+            android:textColorHint="#A7A4A4" />
 
         <EditText
-            android:id="@id/Login"
+            android:id="@+id/lname"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginLeft="50dp"
@@ -84,12 +86,12 @@
             android:backgroundTint="@color/ebg"
             android:ems="10"
             android:hint="@string/last_name"
+            android:importantForAutofill="no"
             android:inputType="textPersonName"
-            android:textColorHint="#A7A4A4"
-            android:importantForAutofill="no" />
+            android:textColorHint="#A7A4A4" />
 
         <EditText
-            android:id="@id/email"
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="50dp"
@@ -98,29 +100,44 @@
             android:background="@drawable/bg"
             android:backgroundTint="@color/ebg"
             android:ems="10"
-
             android:hint="@string/email"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
             android:textColorHint="#A7A4A4" />
 
         <EditText
-            android:id="@id/Login"
+            android:id="@+id/mobile"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="15dp"
             android:layout_marginRight="50dp"
+            android:autofillHints=""
             android:background="@drawable/bg"
             android:backgroundTint="@color/ebg"
             android:ems="10"
             android:hint="@string/mobile_no"
             android:inputType="textPersonName"
-            android:textColorHint="#A7A4A4"
-            android:autofillHints="" />
+            android:textColorHint="#A7A4A4" />
 
         <EditText
-            android:id="@id/Login"
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="50dp"
+            android:autofillHints=""
+            android:background="@drawable/bg"
+            android:backgroundTint="@color/ebg"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPersonName"
+            android:textColorHint="#A7A4A4"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/address"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginLeft="50dp"
@@ -136,38 +153,23 @@
             tools:ignore="TextContrastCheck" />
 
 
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/registernow"
-            android:layout_width="0dp"
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSignUp"
+            android:layout_width="318dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="90dp"
-            android:layout_marginTop="560dp"
-            android:layout_marginRight="90dp"
-            android:layout_weight="1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="50dp"
             android:backgroundTint="#D78B8B"
             android:gravity="center"
             android:text="@string/register_now"
             android:textColor="#050505" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="630dp"
+            android:layout_marginTop="15dp"
             android:gravity="center"
             android:text="@string/already_have_an_account_login"
             android:textColor="#000000"

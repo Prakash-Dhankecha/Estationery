@@ -169,7 +169,7 @@
         >
 
         <Button
-            android:id="@+id/Login"
+            android:id="@+id/btnLogIn"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_centerVertical="true"
@@ -247,6 +247,7 @@
             tools:ignore="SpeakableTextPresentCheck" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/signup"
             style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
             android:layout_width="48dp"
             android:layout_height="48dp"

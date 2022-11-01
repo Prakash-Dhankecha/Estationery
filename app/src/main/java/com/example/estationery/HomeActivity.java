@@ -2,13 +2,17 @@ package com.example.estationery;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
+import com.example.estationery.databinding.ActivityMainBinding;
+
 public class HomeActivity extends AppCompatActivity {
+
 
     ImageView pens;
     ImageButton accountBtn;
@@ -36,5 +40,7 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+
     }
 }
