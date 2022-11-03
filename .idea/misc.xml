@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Estationery/app/src/main/res/drawable/search.xml" value="0.2545" />
+        <entry key="..\:/Estationery/app/src/main/res/drawable/search_backgourd.xml" value="0.2545" />
+        <entry key="..\:/Estationery/app/src/main/res/layout/activity_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/Estationery/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Study/Android/Estationery/app/src/main/res/drawable/gradient.xml" value="0.236" />
         <entry key="..\:/Study/Android/Estationery/app/src/main/res/drawable/order_bg.xml" value="0.236" />
         <entry key="..\:/Study/Android/Estationery/app/src/main/res/layout/activity_account.xml" value="0.264" />
