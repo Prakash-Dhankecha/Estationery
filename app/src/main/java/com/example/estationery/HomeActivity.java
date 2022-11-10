@@ -1,6 +1,8 @@
 package com.example.estationery;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -17,10 +19,13 @@ public class HomeActivity extends AppCompatActivity {
     ImageView pens;
     ImageButton accountBtn;
 
+    int[] programImages = {R.drawable.notebook,R.drawable.toy,R.drawable.pen,R.drawable.eraser_sharpner};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
 
         pens = findViewById(R.id.pens);
         accountBtn = findViewById(R.id.accountBtn);

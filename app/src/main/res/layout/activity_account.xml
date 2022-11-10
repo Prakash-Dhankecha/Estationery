@@ -188,7 +188,7 @@
         <TextView
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="-350dp"
+            android:layout_marginStart="-300dp"
             android:layout_marginTop="450dp"
             android:text="@string/favorite_order"
             android:textColor="@color/black"
@@ -219,7 +219,7 @@
         <TextView
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="-350dp"
+            android:layout_marginStart="-300dp"
             android:layout_marginTop="490dp"
             android:text="@string/payments"
             android:textColor="@color/black"
