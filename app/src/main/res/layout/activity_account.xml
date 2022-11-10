@@ -10,17 +10,18 @@
     <ImageView
         android:layout_width="400dp"
         android:layout_height="110dp"
+        android:layout_marginStart="5dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="40dp"
-        android:background="@drawable/accountprofilebg"
-        android:layout_marginStart="5dp"/>
+        android:background="@drawable/accountprofilebg" />
+
     <ImageView
         android:id="@+id/profileImage"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/account"
+        android:layout_marginStart="300dp"
         android:layout_marginTop="45dp"
-        android:layout_marginStart="300dp"/>
+        android:src="@drawable/account" />
 
     <TextView
         android:id="@+id/profilename"
@@ -32,6 +33,7 @@
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
+
     <TextView
         android:id="@+id/email"
         android:layout_width="match_parent"
@@ -40,17 +42,17 @@
         android:layout_marginTop="75dp"
         android:text="@string/Profile_email"
         android:textColor="@color/black"
-        android:textSize="15sp"
-         />
+        android:textSize="15sp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="110dp"
         android:text="@string/view_activity"
         android:textColor="@color/red"
         android:textSize="15sp"
-        android:textStyle="normal"
-        android:layout_marginTop="110dp"
-        android:layout_marginStart="30dp"/>
+        android:textStyle="normal" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -63,35 +65,35 @@
             android:layout_height="88dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="170dp"
-            android:padding="15dp"
             android:background="@drawable/accountbg"
+            android:padding="15dp"
             android:src="@drawable/like" />
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="88dp"
-            android:padding="15dp"
             android:layout_marginStart="10dp"
             android:layout_marginTop="170dp"
             android:background="@drawable/accountbg"
+            android:padding="15dp"
             android:src="@drawable/notifications" />
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="86dp"
-            android:padding="15dp"
             android:layout_marginStart="10dp"
             android:layout_marginTop="170dp"
             android:background="@drawable/accountbg"
+            android:padding="15dp"
             android:src="@drawable/setting" />
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="88dp"
-            android:padding="15dp"
             android:layout_marginStart="10dp"
             android:layout_marginTop="170dp"
             android:background="@drawable/accountbg"
+            android:padding="15dp"
             android:src="@drawable/wallet" />
 
 
@@ -127,22 +129,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <TextView
             android:layout_width="360dp"
             android:layout_height="200dp"
-            android:background="@drawable/accountlang"
-            android:layout_marginTop="355dp"
             android:layout_marginStart="20dp"
+            android:layout_marginTop="355dp"
+            android:background="@drawable/accountlang"
             tools:ignore="Suspicious0dp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/stationery_order"
             android:layout_marginStart="-340dp"
+            android:layout_marginTop="360dp"
+            android:text="@string/stationery_order"
             android:textColor="@color/black"
             android:textSize="20sp"
-            android:layout_marginTop="360dp"
-            android:textStyle="normal"/>
+            android:textStyle="normal" />
     </LinearLayout>
 
     <LinearLayout
@@ -153,25 +157,26 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/your_order"
-            android:textSize="15sp"
-            android:textColor="@color/black"
+            android:layout_marginStart="60dp"
             android:layout_marginTop="400dp"
-            android:layout_marginStart="60dp"/>
+            android:text="@string/your_order"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
         <ImageView
             android:layout_width="18dp"
             android:layout_height="18dp"
-            android:src="@drawable/yourorder"
-            android:layout_marginTop="400dp"
             android:layout_marginStart="-94dp"
-            android:background="@drawable/yourordershape"/>
+            android:layout_marginTop="400dp"
+            android:background="@drawable/yourordershape"
+            android:src="@drawable/yourorder" />
+
         <View
             android:layout_width="275dp"
             android:layout_height="2dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
             android:layout_marginTop="425dp"
             android:background="@color/black" />
+
         <ImageButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -179,28 +184,30 @@
             android:layout_marginTop="380dp"
             android:backgroundTint="@color/lightblack"
             android:src="@drawable/rightarrow" />
+
         <TextView
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="@string/favorite_order"
-            android:textSize="15sp"
-            android:textColor="@color/black"
+            android:layout_marginStart="-350dp"
             android:layout_marginTop="450dp"
-            android:layout_marginStart="-300dp"/>
+            android:text="@string/favorite_order"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
         <ImageView
             android:layout_width="18dp"
             android:layout_height="18dp"
-            android:src="@drawable/like"
+            android:layout_marginStart="-125dp"
             android:layout_marginTop="450dp"
-            android:layout_marginStart="-120dp"
-            android:background="@drawable/yourordershape"/>
+            android:background="@drawable/yourordershape"
+            android:src="@drawable/like" />
+
         <View
             android:layout_width="270dp"
             android:layout_height="2dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
             android:layout_marginTop="472dp"
             android:background="@color/black" />
+
         <ImageButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -208,28 +215,30 @@
             android:layout_marginTop="430dp"
             android:backgroundTint="@color/lightblack"
             android:src="@drawable/rightarrow" />
+
         <TextView
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="@string/payments"
-            android:textSize="15sp"
-            android:textColor="@color/black"
+            android:layout_marginStart="-350dp"
             android:layout_marginTop="490dp"
-            android:layout_marginStart="-300dp"/>
+            android:text="@string/payments"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
         <ImageView
             android:layout_width="18dp"
             android:layout_height="18dp"
-            android:src="@drawable/payments"
+            android:layout_marginStart="-125dp"
             android:layout_marginTop="490dp"
-            android:layout_marginStart="-120dp"
-            android:background="@drawable/yourordershape"/>
+            android:background="@drawable/yourordershape"
+            android:src="@drawable/payments" />
+
         <View
             android:layout_width="270dp"
             android:layout_height="2dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
             android:layout_marginTop="515dp"
             android:background="@color/black" />
+
         <ImageButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -264,8 +273,6 @@
             android:backgroundTint="@color/lightblack"
             android:src="@drawable/rightarrow" />
     </LinearLayout>
-
-
 
 
 </RelativeLayout>

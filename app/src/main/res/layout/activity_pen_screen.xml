@@ -16,7 +16,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="1000dp"
@@ -90,9 +89,7 @@
                         android:textColor="@color/black"
                         android:textSize="15dp" />
 
-
                 </LinearLayout>
-
 
             </LinearLayout>
 
@@ -153,7 +150,6 @@
                     android:layout_marginRight="0dp"
                     android:text="@string/_500_review"
                     android:textColor="@color/black" />
-
 
             </LinearLayout>
 
@@ -238,7 +234,6 @@
 
             </HorizontalScrollView>
 
-
             <LinearLayout
                 android:id="@+id/p1"
                 android:layout_width="match_parent"
@@ -269,7 +264,6 @@
                     android:layout_marginTop="-12dp"
                     android:text="+ ADD"
                     android:textSize="11dp" />
-
 
                 <TextView
                     android:layout_width="match_parent"
@@ -306,7 +300,6 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/p1"
                 android:orientation="vertical">
-
 
                 <ImageView
                     android:layout_width="110dp"
@@ -360,7 +353,6 @@
                 android:layout_below="@+id/p2"
                 android:orientation="vertical">
 
-
                 <ImageView
                     android:layout_width="110dp"
                     android:layout_height="110dp"
@@ -405,7 +397,6 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
             </LinearLayout>
-
 
         </RelativeLayout>
 
