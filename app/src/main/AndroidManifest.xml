@@ -16,6 +16,12 @@
         android:theme="@style/Theme.Estationery"
         tools:targetApi="31">
         <activity
+            android:name=".bookscreen"
+            android:exported="false" />
+        <activity
+            android:name=".toyscreen"
+            android:exported="false" />
+        <activity
             android:name=".stationary_detail"
             android:exported="false" />
         <activity
