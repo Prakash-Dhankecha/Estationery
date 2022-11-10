@@ -10,5 +10,7 @@ public class ForgotPasswordS2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forgot_password_s2);
+
+        getSupportActionBar().hide();
     }
 }

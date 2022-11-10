@@ -151,13 +151,12 @@
             android:id="@+id/Forgetpassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:layout_marginEnd="105dp"
             android:gravity="end"
             android:text="@string/forget_password"
             android:textAlignment="textEnd"
-            android:textColor="@color/black"
-            android:layout_centerHorizontal="true"
-            />
+            android:textColor="@color/black" />
     </RelativeLayout>
 
     <RelativeLayout

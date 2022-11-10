@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
@@ -34,6 +35,8 @@ public class LoginScreen extends AppCompatActivity {
     EditText email, password;
     Button btnLogIn;
     MaterialButton signup;
+
+    TextView Forgetpassword;
 
     FirebaseAuth firebaseAuth;
     private FirebaseAuth.AuthStateListener authStateListener;
@@ -123,6 +126,16 @@ public class LoginScreen extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 signIn();
+            }
+        });
+
+        // Forget Password
+        Forgetpassword = findViewById(R.id.Forgetpassword);
+        Forgetpassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LoginScreen.this, ForgotPasswordS1.class);
+                startActivity(intent);
             }
         });
     }
