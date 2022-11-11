@@ -9,5 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="ebg">#EDE6E6</color>
     <color name="red">#FF0000</color>
+    <color name="yourorder">#D17474</color>
+    <color name="lightblack">#00FFFFFF</color>
 
 </resources>

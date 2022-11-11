@@ -40,4 +40,33 @@
     <string name="softek_blue_pen">Softek blue pen</string>
     <string name="softek_pen">Softek Pen</string>
     <string name="softek_pen_price">$30 for box</string>
+    <string name="favorite_order">Favorite order</string>
+    <string name="view_activity">View activity</string>
+    <string name="darshan">Darshan</string>
+    <string name="stationery_order">Stationery order</string>
+    <string name="your_order">Your Order</string>
+    <string name="payments">Payments</string>
+    <string name="choose_language">Choose language</string>
+    <string name="logout">Logout</string>
+    <string name="sign_in">Sign in</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="address">Address</string>
+    <string name="shanghai_hero_pens">Shanghai Hero Pens</string>
+    <string name="_60_per_pen">$60, per pen</string>
+    <string name="free">Free</string>
+    <string name="delivery">Delivery</string>
+    <string name="_3_5_km">3.5 KM</string>
+    <string name="distance">Distance</string>
+    <string name="_4_5">4.5</string>
+    <string name="_500_review">(500 + review)</string>
+    <string name="pens">Pens</string>
+    <string name="all_menu">All Menu</string>
+    <string name="toys">Toys</string>
+    <string name="eraser_shapner">Eraser/Shapner</string>
+    <string name="books">Books</string>
+    <string name="more">More</string>
+    <string name="Profile_email">email</string>
+    <string name="password">Password</string>
+
+
 </resources>
